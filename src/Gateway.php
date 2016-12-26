@@ -2,7 +2,7 @@
 namespace Nopaad\PasargadBank;
 class Gateway
 {
-	public static function sign($amount, $redirect, $invoice_number, $action){
+	public static function sign($amount, $callback, $invoice_number, $action){
 		$output = $input = [
 			'merchantCode' => config('laravel-pasargad-bank.merchant'),
 			'terminalCode' => config('laravel-pasargad-bank.terminal'),
