@@ -1,10 +1,9 @@
 {
-    "name": "nopaad/laravel-magfa-sms",
+    "name": "nopaad/laravel-pasargad-bank-gateway",
 	"type": "library",
-	"description": "A collection of php utilities.",
-	"homepage": "https://github.com/nopaad/laravel-magfa-sms",
-    "description": "The Magfa SMS integration for Laravel 5.",
-    "keywords": ["laravel", "laravel5", "magfa", "sms", "api"],
+	"description": "This is an unofficial integration of the Pasargad Bank Gateway API library for laravel 5.",
+	"homepage": "https://github.com/nopaad/laravel-pasargad-bank-gateway",
+    "keywords": ["laravel", "laravel5", "pasargad", "shetab", "gateway"],
 	"license": "GNU",
     "authors": [
         {
@@ -17,11 +16,11 @@
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "5.*",
-		"artisaninweb/laravel-soap": "0.3.*"
+		"phpseclib/phpseclib": "^2.0"
     },
     "autoload": {
         "psr-4": {
-            "Nopaad\\Magfa\\": "src/"
+            "Nopaad\\PasargadBank\\": "src/"
         }
     },
     "minimum-stability": "stable",
