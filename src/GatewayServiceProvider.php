@@ -11,7 +11,7 @@ class GatewayServiceProvider extends \Illuminate\Support\ServiceProvider
 	public function boot()
 	{
 		$this->publishes([
-			__DIR__.'/config/laravel-pasargad-bank.php' => config_path('laravel-pasargad-bank.php'),
+			__DIR__.'/../config/laravel-pasargad-bank.php' => config_path('laravel-pasargad-bank.php'),
 		]);
 	}
 
