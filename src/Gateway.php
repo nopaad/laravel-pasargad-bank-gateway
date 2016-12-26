@@ -9,7 +9,7 @@ class Gateway
 			'invoiceNumber' => $invoice_number,
 			'invoiceDate' => date("Y-m-d H:i:s"),
 			'amount' => $amount,
-			'redirectAddress' => $redirect,
+			'redirectAddress' => $callback,
 			'action' => $action,
 			'timeStamp' => date("Y-m-d H:i:s"),
 		];
